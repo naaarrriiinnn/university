@@ -3,7 +3,6 @@ from course import Course
 import json
 import os
 
-
 class student(User):
     def __init__(self, username, password):
         super(). __init__("student", username, password)
